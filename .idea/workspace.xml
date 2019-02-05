@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82ecd7cc-7c55-4f33-a8f5-71a73ac5fc6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/App/team.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/App/GreeterApplication.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/App/GreeterApplication.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/App/GreeterApplication$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/App/GreeterApplication$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/App/GreeterApplication$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/App/GreeterApplication$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/App/team.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/App/team.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/App/GreeterApplication.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="3" />
+            <state relative-caret-position="300">
+              <caret line="20" column="29" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="20" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -43,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/App/team.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+            <state relative-caret-position="704">
+              <caret line="51" column="2" lean-forward="true" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
               <folding>
                 <element signature="e#13#32#0" expanded="true" />
               </folding>
@@ -143,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.team">
+  <component name="RunManager" selected="Application.GreeterApplication">
     <configuration name="CoinFlip" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="App.GreeterApplication.CoinFlip" />
       <module name="Greetings" />
@@ -257,6 +254,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1987" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49839228" visible="true" weight="0.26342005" />
       <window_info id="Structure" order="1" sideWeight="0.5016077" side_tool="true" weight="0.24958494" />
@@ -270,7 +268,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" weight="0.3297414" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" weight="0.32937366" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32937366" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5002767" side_tool="true" weight="0.3297414" />
       <window_info anchor="bottom" id="Version Control" order="10" />
@@ -297,15 +295,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/App/GreeterApplication.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="3" />
+        <state relative-caret-position="300">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="20" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/App/team.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        <state relative-caret-position="704">
+          <caret line="51" column="2" lean-forward="true" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
           <folding>
             <element signature="e#13#32#0" expanded="true" />
           </folding>
