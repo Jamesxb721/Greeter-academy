@@ -25,11 +25,11 @@ object PredictorApplication extends App {
 
   def team1(t1: String): Unit = println()
 
-  var t1: String = StdIn.readLine("Enter team 1: ")
+  lazy val t1: String = StdIn.readLine("Enter team 1: ")
 
   def team2(t2: String): Unit = println()
 
-  var t2: String = StdIn.readLine("Enter team 2: ")
+  lazy val t2: String = StdIn.readLine("Enter team 2: ")
 
 
   def sport(ws: String): Unit = println()
