@@ -3,46 +3,32 @@ package App
 import scala.math.ceil
 import App.PredictorApplication._
 
+
 object predictLogic {
 
-  def numberOne(): Unit = {
-    val t1s = ceil(Math.random * 3 + 1)
-    val t2s = ceil(Math.random * 3 + 1)
-    println(t1 + " - " + t1s + " --- " + t2s + " - " + t2)
+  var calculation = 0
 
-    if (t1s > t2s) {
-      println(t1 + " wins!")
-    }
-    else if (t1s < t2s) {
-      println(t2 + " wins!")
-    }
-    else  {
-      println("Draw!")
-    }
+  def sportType(st: String): Unit = {
 
+
+    st match {
+      case "1" => calculation = 3
+      case "2" => calculation = 189
+      case "3" => calculation = 49
+      case _ => logicRouter()
+
+
+
+
+    }
+    scoreGenerator()
   }
 
-  def numberTwo(): Unit = {
-    val t1s = ceil(Math.random * 209 + 1)
-    val t2s = ceil(Math.random * 209 + 1)
+  def scoreGenerator(): Unit = {
+    val t1s = ceil(Math.random * calculation)
+    val t2s = ceil(Math.random * calculation)
     println(t1 + " - " + t1s + " --- " + t2s + " - " + t2)
 
-    if (t1s > t2s) {
-      println(t1 + " wins!")
-    }
-    else if (t1s < t2s) {
-      println(t2 + " wins!")
-    }
-    else {
-      println("Draw!")
-    }
-
-  }
-
-  def anyOtherNumber(): Unit = {
-    val t1s = ceil(Math.random * 49 + 1)
-    val t2s = ceil(Math.random * 49 + 1)
-    println(t1 + " - " + t1s + " --- " + t2s + " - " + t2)
     if (t1s > t2s) {
       println(t1 + " wins!")
     }
