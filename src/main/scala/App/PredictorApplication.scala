@@ -9,50 +9,45 @@ import scala.io.StdIn
 object PredictorApplication extends App {
 
 
-  def greet(name: String): Unit = println()
+  def userFilter(name: String): Unit = println()
 
-  var name: String = StdIn.readLine("Enter Username: ")
-  greet(name)
-  acc(name)
+  var name: String = StdIn.readLine("Enter Username: ").toUpperCase
+  userFilter(name)
+  userRefilter(name)
 
-  def acc(name: String): Unit =
-    if (name != "James") {
-      println(s"Denied")
-      val name: String = StdIn.readLine("Enter Username: ")
-      acc(name)
+  def userRefilter(name: String): Unit =
+    name match {
+      case "JAMES" => println("Accepted")
+      case _ => println("Denied")
+        val name: String = StdIn.readLine("Enter Username: ")
+        userRefilter(name)
     }
-    else
-      println(s"Accepted")
+
 
   logicRouter()
 
 
-  def team1(t1: String): Unit = println()
+  def teamOne(t1: String): Unit = println()
 
   lazy val t1: String = StdIn.readLine("Enter team 1: ")
 
-  def team2(t2: String): Unit = println()
+  def teamTwo(t2: String): Unit = println()
 
   lazy val t2: String = StdIn.readLine("Enter team 2: ")
 
 
-
-
-    def logicRouter():Unit = {
-      val sportInput = StdIn.readLine("Which Sport? (FOOTBALL - 1, BASKETBALL - 2 or RUGBY - 3)")
-      if(sportInput == "1"){
-        sportType(sportInput)
-      }
-      else if(sportInput == "2"){
-        sportType(sportInput)
-      }
-      else if(sportInput == "3"){
-        sportType(sportInput)
-      }
-      else{
+  def logicRouter(): Unit = {
+    val sportInput = StdIn.readLine("Which Sport? (FOOTBALL - 1, BASKETBALL - 2 or RUGBY - 3)")
+    sportInput match {
+      case "1" | "2" | "3" => sportType(sportInput)
+      case _ => println("Please enter a valid number!!!")
         logicRouter()
-      }
     }
-
+  }
 }
+
+
+
+
+
 
