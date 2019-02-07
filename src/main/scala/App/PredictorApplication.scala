@@ -13,27 +13,27 @@ object PredictorApplication extends App {
 
   var name: String = StdIn.readLine("Enter Username: ").toUpperCase
   userFilter(name)
-  userRefilter(name)
+  secondFilter(name)
 
-  def userRefilter(name: String): Unit =
+  def secondFilter(name: String): Unit =
     name match {
       case "JAMES" => println("Accepted")
       case _ => println("Denied")
         val name: String = StdIn.readLine("Enter Username: ")
-        userRefilter(name)
+        secondFilter(name)
     }
 
 
   logicRouter()
 
 
-  def teamOne(t1: String): Unit = println()
+  def enterTeam1(teamOne: String): Unit = println()
 
-  lazy val t1: String = StdIn.readLine("Enter team 1: ")
+  lazy val teamOne: String = StdIn.readLine("Enter team 1: ")
 
-  def teamTwo(t2: String): Unit = println()
+  def enterTeam2(teamTwo: String): Unit = println()
 
-  lazy val t2: String = StdIn.readLine("Enter team 2: ")
+  lazy val teamTwo: String = StdIn.readLine("Enter team 2: ")
 
 
   def logicRouter(): Unit = {
