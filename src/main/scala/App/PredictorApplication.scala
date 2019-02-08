@@ -38,13 +38,12 @@ object PredictorApplication extends App {
 
   def logicRouter(): Unit = {
     val sportInput = StdIn.readLine("Which Sport? (FOOTBALL - 1, BASKETBALL - 2 or RUGBY - 3)")
-    sportInput match {
-      case "1" | "2" | "3" => sportType(sportInput)
-      case _ => println("Please enter a valid number!!!")
-        logicRouter()
-    }
+    sportType(Some(sportInput))
+
+
   }
 }
+
 
 
 
