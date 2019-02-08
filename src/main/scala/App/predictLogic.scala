@@ -16,9 +16,9 @@ object predictLogic {
 
     st match {
       case "1" => min = 0
-        max = 5
+        max = 4
       case "2" => min = 50
-        max = 160
+        max = 150
       case "3" => min = 5
         max = 50
 
@@ -32,9 +32,8 @@ object predictLogic {
     println(teamOne + " - " + scoreOne + " --- " + scoreTwo + " - " + teamTwo)
 
 
-    if (scoreOne > scoreTwo) {
+    if (scoreOne > scoreTwo)
       println(teamOne + " wins!")
-    }
     else if (scoreOne < scoreTwo) {
       println(teamTwo + " wins!")
     }
@@ -46,11 +45,3 @@ object predictLogic {
   }
 
 }
-
-
-
-
-
-
-
-

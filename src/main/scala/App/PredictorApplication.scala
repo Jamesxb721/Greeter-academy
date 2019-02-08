@@ -50,4 +50,3 @@ object PredictorApplication extends App {
 
 
 
-
