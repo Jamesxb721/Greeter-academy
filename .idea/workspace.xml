@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82ecd7cc-7c55-4f33-a8f5-71a73ac5fc6c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/App/PredictorApplication.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/App/PredictorApplication.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/App/predictLogic.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/App/predictLogic.scala" afterDir="false" />
     </list>
@@ -271,13 +272,13 @@
       <window_info id="Favorites" order="4" sideWeight="0.5016077" side_tool="true" weight="0.24958494" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4997233" visible="true" weight="0.19438446" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997233" weight="0.19438446" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843652" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" weight="0.32937366" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4991699" weight="0.3812095" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4991699" visible="true" weight="0.3812095" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5008301" side_tool="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.3297414" />
